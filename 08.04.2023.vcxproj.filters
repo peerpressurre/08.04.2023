@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="application">
+      <UniqueIdentifier>{438f34d0-6cf0-49e1-a319-0993a34cdfe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="data">
+      <UniqueIdentifier>{4253cafd-7ed9-4583-a6c9-f9c4d2be8cde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="presentation">
+      <UniqueIdentifier>{a3e19f27-2f0a-4e1e-a234-aa19be8698ec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="application.h">
+      <Filter>application</Filter>
+    </ClInclude>
+    <ClInclude Include="Phone.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="PhoneProvider.h">
+      <Filter>data</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>presentation</Filter>
+    </ClInclude>
+    <ClInclude Include="Order.h">
+      <Filter>data</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="application.cpp">
+      <Filter>application</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
