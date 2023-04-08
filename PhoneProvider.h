@@ -13,6 +13,7 @@ struct PhoneProvider
 		phones[4] = { "Samsung", "Android", "Galaxy Z Flip", "50MP + 10MP + 12MP", 512, 7.6 };
 		phones[5] = { "Samsung", "Android", "Galaxy S21", "12MP + 12MP + 64MP", 128, 6.2};
 	}
+
 	void PrintPhones(switch_on, Phone* phones)
 	{
 		switch (int switch_on)
